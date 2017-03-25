@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header h1 {
+	padding: 1rem 0;
+}
+
+h2 {
+	margin-top: 3rem;
+}
+
+.twitter-timeline {
+	margin-top: 1rem;
+}
+
+.ribbon {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+@media (min-width: 40rem) {
+	body {
+		min-width: 700px;
+	}
+
+	header {
+		padding: 0 5rem;
+	}
+
+	section, footer {
+		padding: 1rem 5rem;
+	}
+
+}
+
+@media (min-width: 64rem) {
+	body {
+		min-width: 800px;
+	}
+}
