@@ -28,7 +28,7 @@ a, a:active, a:focus {
 
 a:hover {
 	font-weight: bold;
-  color: #ff2518;
+        color: #ff2518;
 }
 
 #banner-logo {
@@ -77,6 +77,10 @@ footer {
 	border-radius: 3px;
 	padding-left: 0.1rem;
 	padding-right: 0.1rem;
+}
+
+a.highlight, a.highlight:active, a.highlight:focus {
+        color: white;
 }
 
 .ribbon {
